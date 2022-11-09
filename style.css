@@ -1,0 +1,56 @@
+.container{
+    width: auto;
+    height: 800px;
+    border: black;
+    background-image: url(kdc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+   
+}
+#header{
+    height: 100px;
+    border: solid black;
+    margin: 2px;
+    text-align: center;
+    font-style: normal;
+    line-height: 50px;
+    font-size: 45px;
+    padding: center;
+
+}
+#nav{
+    height: 40px;
+    border: solid black;
+    margin: 2px;
+}
+nav li{
+    display: inline-block;
+}
+li{
+    width: 100px;
+    border: solid;
+    text-align: center;
+}
+#section{
+    height: 552px;
+    border: solid black;
+    font-size: 6px;
+    font-style: oblique;
+    margin: 2px;
+}
+
+
+
+
+#footer{
+    height: 80px;
+    border: solid black;
+    margin: 2px; 
+    text-align: center;
+    font-size: 30px;
+}
+.aa{
+    margin-left: 950px;
+}

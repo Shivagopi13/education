@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        .container{
+            width: auto;
+            height: 730px;
+            border: solid red;
+        }
+        header,footer{
+            height: 37px;
+            border: solid;
+        }
+        
+        .box{
+            
+            height: 600px;
+            display: flex;
+            border: solid black;
+            justify-content: center;
+        }
+        nav{
+            height: 40px;
+            border: solid 2px;
+            text-align: center;
+            word-spacing: 6ch;
+        }
+        nav ul li{
+            display:inline-block
+        }
+        ul li{
+            width: 50px;
+            border: solid;
+        }
+        #box1{
+         background-color: red;
+         width: 25%;
+         border: 2px;
+        }
+        #box2{
+            background-color: green;
+            width: 75%;
+            border: 2px;
+        }
+        #box3{
+            background-color: yellow;
+            width: 25%;
+            border: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>task</header>
+        <nav>
+            <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>about</li>
+            <li>login</li>
+            </ul>
+        </nav>
+<div class="box">
+<div id="box1">1</div>
+<div id="box2">2</div>
+<div id="box3">3</div>
+</div>
+<footer>all rights</footer>
+</div>
+
+</body>
+</html>
